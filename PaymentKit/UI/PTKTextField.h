@@ -25,4 +25,3 @@
 @property (nonatomic, weak) id<PTKTextFieldDelegate> delegate;
 
 @end
-

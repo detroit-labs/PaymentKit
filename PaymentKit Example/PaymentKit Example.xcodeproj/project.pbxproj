@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1DA61F1BA720CA00230DA7 /* PTKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1DA61C1BA720CA00230DA7 /* PTKTextField.m */; settings = {ASSET_TAGS = (); }; };
+		1F1DA6201BA720CA00230DA7 /* PTKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1DA61E1BA720CA00230DA7 /* PTKView.m */; settings = {ASSET_TAGS = (); }; };
 		347D10220CD2551B2976ADBA /* PTKComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 347D1B3599CFA227F6AB7FCA /* PTKComponent.m */; };
-		347D16FCD9EB38A658D4B045 /* PTKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 347D1979110780A062468336 /* PTKTextField.m */; };
-		347D1C9D79EE33CD287B94EE /* PTKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 347D118D23A60619342D3892 /* PTKView.m */; };
 		4A83384818B53C330035888A /* PTKComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 347D1B3599CFA227F6AB7FCA /* PTKComponent.m */; };
 		4C332B4316FA5297009C782D /* textfield.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C332B4116FA5297009C782D /* textfield.png */; };
 		4C332B4416FA5297009C782D /* textfield@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C332B4216FA5297009C782D /* textfield@2x.png */; };
@@ -64,11 +64,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F1DA61B1BA720CA00230DA7 /* PTKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKTextField.h; sourceTree = "<group>"; };
+		1F1DA61C1BA720CA00230DA7 /* PTKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKTextField.m; sourceTree = "<group>"; };
+		1F1DA61D1BA720CA00230DA7 /* PTKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKView.h; sourceTree = "<group>"; };
+		1F1DA61E1BA720CA00230DA7 /* PTKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKView.m; sourceTree = "<group>"; };
 		347D10D4E714CDE5FEAD5E5D /* PTKComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKComponent.h; sourceTree = "<group>"; };
-		347D118D23A60619342D3892 /* PTKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKView.m; sourceTree = "<group>"; };
-		347D124F084FD525A2870677 /* PTKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKTextField.h; sourceTree = "<group>"; };
-		347D1725B7473FB930E67F3E /* PTKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKView.h; sourceTree = "<group>"; };
-		347D1979110780A062468336 /* PTKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKTextField.m; sourceTree = "<group>"; };
 		347D1B3599CFA227F6AB7FCA /* PTKComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKComponent.m; sourceTree = "<group>"; };
 		4A8CD3EB18DD327700796758 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4C332B4116FA5297009C782D /* textfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfield.png; sourceTree = "<group>"; };
@@ -161,15 +161,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		347D15CA8C87A3417C8F0DA4 /* UI */ = {
+		1F1DA61A1BA720CA00230DA7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				347D1725B7473FB930E67F3E /* PTKView.h */,
-				347D118D23A60619342D3892 /* PTKView.m */,
-				347D124F084FD525A2870677 /* PTKTextField.h */,
-				347D1979110780A062468336 /* PTKTextField.m */,
+				1F1DA61B1BA720CA00230DA7 /* PTKTextField.h */,
+				1F1DA61C1BA720CA00230DA7 /* PTKTextField.m */,
+				1F1DA61D1BA720CA00230DA7 /* PTKView.h */,
+				1F1DA61E1BA720CA00230DA7 /* PTKView.m */,
 			);
-			name = UI;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		4C332B4516FA529C009C782D /* TextField */ = {
@@ -248,7 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				FAA360F416C9F21C00049C6F /* Resources */,
-				347D15CA8C87A3417C8F0DA4 /* UI */,
+				1F1DA61A1BA720CA00230DA7 /* UI */,
 				FAADE6CD16BC44D9006FF4D1 /* PTKAddressZip.h */,
 				FAADE6CE16BC44D9006FF4D1 /* PTKAddressZip.m */,
 				FA45ACA216AF1EE80003A41D /* PTKCardNumber.h */,
@@ -460,6 +460,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA45AC7D16AE350D0003A41D /* main.m in Sources */,
+				1F1DA6201BA720CA00230DA7 /* PTKView.m in Sources */,
+				1F1DA61F1BA720CA00230DA7 /* PTKTextField.m in Sources */,
 				FA45AC8116AE350D0003A41D /* AppDelegate.m in Sources */,
 				FA45AC8A16AE350E0003A41D /* PaymentViewController.m in Sources */,
 				FA45ACA416AF1EE80003A41D /* PTKCardNumber.m in Sources */,
@@ -469,8 +471,6 @@
 				FAADE6CF16BC44D9006FF4D1 /* PTKAddressZip.m in Sources */,
 				FA6F1A5E16C1B21000835C75 /* ViewController.m in Sources */,
 				FA3A8C5A16D208E300A9C346 /* PTKUSAddressZip.m in Sources */,
-				347D1C9D79EE33CD287B94EE /* PTKView.m in Sources */,
-				347D16FCD9EB38A658D4B045 /* PTKTextField.m in Sources */,
 				347D10220CD2551B2976ADBA /* PTKComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,7 +577,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PaymentKit Example/PaymentKit Example-Prefix.pch";
 				INFOPLIST_FILE = "PaymentKit Example/PaymentKit Example-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "PaymentKit Example";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -590,7 +590,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PaymentKit Example/PaymentKit Example-Prefix.pch";
 				INFOPLIST_FILE = "PaymentKit Example/PaymentKit Example-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "PaymentKit Example";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
